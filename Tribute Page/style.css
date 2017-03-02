@@ -1,0 +1,67 @@
+body {
+  background-color: #6babef;  
+}
+
+/* **********************************
+    HEADER
+*********************************** */
+
+.header {
+  text-align: center;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.header h1 {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+/* **********************************
+    MAIN PAGE
+*********************************** */
+
+.main_page {
+  text-align: center;
+  background-color: rgba(255,255,255,0.4);
+  padding-top: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.main_page p {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.main_page li {
+  list-style: none;
+}
+
+.main_page ul {
+  padding-left: 0px;
+}
+
+.main_page img {
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 10px;
+}
+
+/* **********************************
+    MEDALS
+*********************************** */
+
+#gold {
+  color: #f4ce42;
+  font-weight: bold;
+}
+
+#bronze {
+  color: #b33c00;
+  font-weight: bold;
+}
+
+#silver {
+  color: #8c8c8c;
+  font-weight: bold;
+}
