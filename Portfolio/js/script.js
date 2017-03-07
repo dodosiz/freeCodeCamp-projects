@@ -3,7 +3,6 @@ $(document).ready(function(){
     /* ************************************
     Initially these elements are hidden
     ************************************* */
-    
     // social media buttons
     $("a.button").hide();
     
@@ -16,31 +15,36 @@ $(document).ready(function(){
     
     // description about yourself
     $("#about").hide();
-    
-    // this is the horizontal rule in the middle
-    $("hr").hide();
+    $(".about").hide();
     
     // the portfolio projects
     $("#portfolio").hide();
     
     // this is the parrent of the actual portfolio
     $(".portfolio").hide();
+    
+    // navigation bar
+    $("nav").hide();
 
+    // coding skills
+    $("#skills").hide();
+    
+    // this is the parrent of the actual skills
+    $(".skills").hide();
     
     /* ************************************
     These elements show after scroll
     ************************************* */
     $(document).scroll(function(){
         // project icons fade in
-        $("#portfolio").fadeIn(3000);
+        $("#skills").fadeIn(3000);
+        
+        $("#portfolio").fadeIn(4000);
         
         // contact form fades in
-        $("section.contact").fadeIn(4000);
+        $("section.contact").fadeIn(5000);
         
-        // this is the horizontal rule in the middle
-        $("hr").fadeIn(3000);
     });
-    
     
     /* ************************************
     These elements show after click
@@ -48,6 +52,9 @@ $(document).ready(function(){
     $(document).click(function(){
         // this is to allow the projects to show
         $(".portfolio").show();
+        
+        // this is to allow the skills to show
+        $(".skills").show();
         
         // the click anywhere message
         $("#just_click").hide();
@@ -62,6 +69,12 @@ $(document).ready(function(){
         $("#github").fadeIn(2000);
         
         // the description about yourself
+        $(".about").show();
         $("#about").slideDown(2000);
+        
+        // navigation bar
+        $("nav").slideDown(1000);
+        
+        
     });
 });

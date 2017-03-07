@@ -9,10 +9,6 @@ body {
     background-color: #444; 
 }
 
-hr {
-    border-bottom-color: #333;
-}
-
 /* ********************************
 NAVIGATION BAR
 ********************************* */
@@ -47,6 +43,29 @@ section.hero {
 a.button {
     margin-right: 2%;
     border-radius: 10px;
+}
+
+/* ********************************
+ABOUT SECTION
+********************************* */
+.about {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(255,255,255,0.7);
+}
+div#about {
+    margin-bottom: 0px;
+}
+/* ********************************
+SKILLS SECTION
+********************************* */
+.skills {
+    padding-top: 2%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#skills {
+    text-align: center;
 }
 
 /* ********************************
