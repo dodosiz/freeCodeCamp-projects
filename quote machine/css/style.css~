@@ -1,0 +1,18 @@
+body {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 10%;
+	background-color: #d6cbd3;
+}
+
+.quoteHolder {
+	border: 2px solid grey;
+	border-radius: 10%;
+	padding: 3%;
+	text-align: center;
+	background-color: #eca1a6;
+}
+
+button {
+	background-color: #bdcebe;
+}
